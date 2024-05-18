@@ -1,5 +1,4 @@
 import React from "react";
-import InputArea from "./InputArea";
 
 function NoteStruc(props) {
     return (

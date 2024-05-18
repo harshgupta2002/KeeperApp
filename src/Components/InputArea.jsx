@@ -7,10 +7,10 @@ function InputArea(props) {
     const[bodyText, setBodyText]=useState("");
     function handleChange(event){
         var newValue= event.target.value;
-        if(event.target.name=="heading"){
+        if(event.target.name==="heading"){
             setHeading(newValue);
         }
-        else if(event.target.name=="textArea"){
+        else if(event.target.name==="textArea"){
             setBodyText(newValue);
         }           
         // console.log(newValue);
